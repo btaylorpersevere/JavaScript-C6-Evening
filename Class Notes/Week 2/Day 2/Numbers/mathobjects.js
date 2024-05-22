@@ -1,20 +1,19 @@
-Math Object
-In JavaScript the Math Object provides a lots of methods to work with numbers.
+// Math Object
+// In JavaScript the Math Object provides a lots of methods to work with numbers.
 
-const PI = Math.PI
-
+const pie = Math.PI
 console.log(PI)                            // 3.141592653589793
 
 // Rounding to the closest number
 // if above .5 up if less 0.5 down rounding
 
-console.log(Math.round(PI))                // 3 to round values to the nearest number
+console.log(Math.round(pie))                // 3 to round values to the nearest number
 
 console.log(Math.round(9.81))              // 10
 
-console.log(Math.floor(PI))                // 3 rounding down
+console.log(Math.floor(pie))                // 3 rounding down
 
-console.log(Math.ceil(PI))                 // 4 rounding up
+console.log(Math.ceil(pie))                 // 4 rounding up
 
 console.log(Math.min(-5, 3, 20, 4, 5, 10)) // -5, returns the minimum value
 
@@ -56,11 +55,11 @@ Math.sin(60)
 
 Math.cos(0)
 Math.cos(60)
-Random Number Generator
-The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
+// Random Number Generator
+// The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
 
 let randomNum = Math.random() // generates 0 to 0.999...
-Now, let us see how we can use random() method to generate a random number between 0 and 10:
+// Now, let us see hnerate a random number between 0 and 10ow we can use random() method to ge:
 
 let randomNum = Math.random()         // generates 0 to 0.999
 let numBtnZeroAndTen = randomNum * 11

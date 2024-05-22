@@ -1,23 +1,23 @@
 ///////////////////////////////////////////////Welcome To String///////////////////////////////
 ///////////////////////////////////////////primitive data type/////////////////////////////
 
-//three different kinds of strings 
-let firstName='Kelebet'  //single string
-let lastName="Engida"      //double string 
-let middleName=`Javascript` //literal string 
+// //three different kinds of strings 
+// let firstName='Kelebet'  //single string
+// let lastName="Engida"      //double string 
+// let middleName=`Javascript` //literal string 
 
-//concatinating 
+// //concatinating 
 
-let inroduction="My name is" + " "+ firstName+ " " + lastName+ " "+middleName+"."
-//console.log(inroduction)
+// let inroduction="My name is" + " "+ firstName+ " " + lastName+ " "+middleName+"."
+// //console.log(inroduction)
 
-let faveTeam="Dallas CowBoys";
-console.log(faveTeam.length)
+// let faveTeam="Dallas CowBoys";
+// console.log(faveTeam.length)
 
-let teamColor="Blue & grey";
-let teaSymbol="star";
+// let teamColor="Blue & grey";
+// let teaSymbol="star";
 
-let carolsTeam="My favorite team is " + faveTeam + " and their color is "+ teamColor +"."
+// let carolsTeam="My favorite team is " + faveTeam + " and their color is "+ teamColor +"."
 
 ///////////////////Escape sequence characters////////////////////////
 
@@ -28,7 +28,7 @@ let carolsTeam="My favorite team is " + faveTeam + " and their color is "+ teamC
 //     \": Double quote (")
 
 let paragraph="\tThroughout the course, you will \'embark on a journey to understand the core principles and methodologies behind data analytics. \n By delving into statistical techniques, you will learn how to effectively analyze and interpret data, enabling you to draw meaningful insights and make informed business decisions. You will also explore financial forecasting techniques to predict future trends and gain a competitive edge in financial analysis."
-// console.log(paragraph)
+console.log(paragraph)
 
 
 ///////////////////////////////////String Methods ///////////////////////////////

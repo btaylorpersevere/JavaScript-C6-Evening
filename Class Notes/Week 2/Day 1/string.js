@@ -1,23 +1,58 @@
 // //////////
 // /////////////////////////////////////////primitive data type/////////////////////////////
 
+// <<<<<<< HEAD
+// <<<<<<< HEAD
+// //three different kinds of strings 
+// let firstName='Kelebet'  //single string
+// let lastName="Engida"      //double string 
+// let middleName=`Javascript` //literal string 
+
+// //concatinating 
+
+// let inroduction="My name is" + " "+ firstName+ " " + lastName+ " "+middleName+"."
+// //console.log(inroduction)
+
+// let faveTeam="Dallas CowBoys";
+// console.log(faveTeam.length)
+// =======
+//three different kinds of strings 
+let firstName ='Bridgett'  //single string
+let lastName ="Engida"      //double string 
+let middleName=`Javascript` //literal string 
+// =======
 // //three different kinds of strings 
 // let firstName ='Bridgett'  //single string
 // let lastName ="Engida"      //double string 
 // let middleName=`Javascript` //literal string 
+>>>>>>> 817453295f9c5513dd2ef7659b22b7bc601852e3
 
 // //concatinating strings using the concatenation operator: (+)
 
 // let inroduction ="My name is" + " "+ firstName + " " + lastName + " "+ middleName +"."
 // console.log(inroduction)
 
+<<<<<<< HEAD
+let faveTeam="Dallas CowBoys";
+console.log(faveTeam.length) //.length is a JS method
+>>>>>>> 85516a09f272ecc1d5bd2dd78e4730a95610fdca
+=======
 // let faveTeam="Dallas CowBoys";
 // console.log(faveTeam.length) //.length is a JS method
+>>>>>>> 817453295f9c5513dd2ef7659b22b7bc601852e3
 
 // let teamColor="Blue & grey";
 // let teaSymbol="star";
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+// let carolsTeam="My favorite team is " + faveTeam + " and their color is "+ teamColor +"."
+=======
+let carolsTeam ="My favorite team is " + faveTeam + " and their color is "+ teamColor +"."
+>>>>>>> 85516a09f272ecc1d5bd2dd78e4730a95610fdca
+=======
 // let carolsTeam ="My favorite team is " + faveTeam + " and their color is "+ teamColor +"."
+>>>>>>> 817453295f9c5513dd2ef7659b22b7bc601852e3
 
 // scape sequence characters//
 
@@ -27,8 +62,18 @@
 //     \': Single quote (')
 //     \": Double quote (")
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+let paragraph="\tThroughout the course, you will \'embark on a journey to understand the core principles and methodologies behind data analytics. \n By delving into statistical techniques, you will learn how to effectively analyze and interpret data, enabling you to draw meaningful insights and make informed business decisions. You will also explore financial forecasting techniques to predict future trends and gain a competitive edge in financial analysis."
+console.log(paragraph)
+=======
+let paragraph = "\tThroughout the course, you will \'embark on a journey to understand the core principles and methodologies behind data analytics. \n By delving into statistical techniques, you will learn how to effectively analyze and interpret data, enabling you to draw meaningful insights and make informed business decisions. You will also explore financial forecasting techniques to predict future trends and gain a competitive edge in financial analysis."
+ console.log(paragraph)
+>>>>>>> 85516a09f272ecc1d5bd2dd78e4730a95610fdca
+=======
 // let paragraph = "\tThroughout the course, you will \'embark on a journey to understand the core principles and methodologies behind data analytics. \n By delving into statistical techniques, you will learn how to effectively analyze and interpret data, enabling you to draw meaningful insights and make informed business decisions. You will also explore financial forecasting techniques to predict future trends and gain a competitive edge in financial analysis."
 //  console.log(paragraph)
+>>>>>>> 817453295f9c5513dd2ef7659b22b7bc601852e3
 
 
 ///String Methods //

@@ -17,10 +17,17 @@
 //word = "Python"  //You do not have to redeclare the variable, just reassign the value of it
 // word[0]="y"
 
+<<<<<<< HEAD
+
+let numOne=3;
+let numTwo="3"
+console.log(numOne== numTwo)
+=======
 //Boolean
 // let numOne = 3;
 // let numTwo ="3"
 // console.log(numOne == numTwo)  //returns a true or false value
+>>>>>>> 85516a09f272ecc1d5bd2dd78e4730a95610fdca
 
 // let js ="javascript"
 // let py ="python"

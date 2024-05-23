@@ -81,9 +81,9 @@ console.log(country.substr(3, 4))   // land
 // split(): The split method splits a string at a specified place.
 // let string = '30 Days Of JavaScript'
 
-
-// console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
-// console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
+//6.  Split method
+console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
+console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
 
 // let firstName = 'Asabeneh'
 
@@ -95,7 +95,7 @@ console.log(country.substr(3, 4))   // land
 // console.log(countries.split(','))  // split to any array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
 // console.log(countries.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
 
-// 6. trim(): Removes trailing space in the beginning or the end of a string.
+// 7. trim(): Removes trailing space in the beginning or the end of a string.
 // let string = '   30 Days Of JavaScript   '
 
 // console.log(string)
@@ -110,7 +110,7 @@ console.log(country.substr(3, 4))   // land
 //   Asabeneh 
 // Asabeneh
 
-// 7.  includes(): It takes a substring argument and it checks if substring argument exists in the string. includes() returns a boolean. If a substring exist in a string, it returns true, otherwise it returns false.
+// 8.  includes(): It takes a substring argument and it checks if substring argument exists in the string. includes() returns a boolean. If a substring exist in a string, it returns true, otherwise it returns false.
 // let string = '30 Days Of JavaScript'
 
 // console.log(string.includes('Days'))     // true
@@ -127,7 +127,7 @@ console.log(country.substr(3, 4))   // land
 // console.log(country.includes('land'))    // true
 // console.log(country.includes('Land'))    // false
 
-// 8. replace(): takes as a parameter the old substring and a new substring.
+// 9. replace(): takes as a parameter the old substring and a new substring.
 // string.replace(oldsubstring, newsubstring)
 // let string = '30 Days Of JavaScript'
 // console.log(string.replace('JavaScript', 'Python')) // 30 Days Of Python

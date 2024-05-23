@@ -2,33 +2,34 @@
 // // Everything in JavaScript is an object. A string is a primitive data type that means we can not modify it once it is created. The string object has many string methods. There are different string methods that can help us to work with strings.
 
 // // 1.  length: The string length method returns the number of characters in a string included empty space.
-// Example:
+// // Example:
 
-// let js = 'JavaScript'
-// console.log(js.length)         // 10
-// let firstName = 'Asabeneh'
-// console.log(firstName.length)  // 8
+// // let js = 'JavaScript'
+// // console.log(js.length)         // 10
+// // let firstName = 'Asabeneh'
+// // console.log(firstName.length)  // 8
+// // let jslength = js.length
+// // console.log(jslength)
 
 
 // // 2.  Accessing characters in a string: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
 
 
-// //Let us access different characters in a string
+//Let us access different characters in a string
 // let string = 'JavaScript'
-// let firstLetter = string[0]
+// let firstLetter = string[4]
 
-// console.log(firstLetter)           // J
+// console.log(firstLetter)           // 
 
 // let secondLetter = string[1]       // a
 // let thirdLetter = string[2]
 // let lastLetter = string[9]
 
-// console.log(lastLetter)            // t
+// // console.log(lastLetter)            // t
+//  let lastIndex = string.length - 1
 
-// let lastIndex = string.length - 1
-
-// console.log(lastIndex)  // 9
-// console.log(string[lastIndex])    // t
+// // console.log(lastIndex)  // 9
+// // console.log(string[lastIndex])    // t
 
 
 
@@ -58,14 +59,14 @@
 
 // console.log(country.toLowerCase())   // finland
 
-// // 4. substr(): It takes two arguments, the starting index and number of characters to slice.
-// let string = 'JavaScript'
-// console.log(string.substr(4,6))    // Script
+// 4. substr(): It takes two arguments, the starting index and number of characters to slice.
+let string = 'JavaScript'
+console.log(string.substr(4,6))    // Script
 
-// let country = 'Finland'
-// console.log(country.substr(3, 4))   // land
+let country = 'Finland'
+console.log(country.substr(3, 4))   // land
 
-// //5. substring(): It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
+//5. substring(): It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
 // let string = 'JavaScript'
 
 // console.log(string.substring(0,4))     // Java
@@ -79,6 +80,7 @@
 // console.log(country.substring(3))      // land
 // split(): The split method splits a string at a specified place.
 // let string = '30 Days Of JavaScript'
+
 
 // console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
 // console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]

@@ -60,11 +60,11 @@
 // console.log(country.toLowerCase())   // finland
 
 // 4. substr(): It takes two arguments, the starting index and number of characters to slice.
-let string = 'JavaScript'
-console.log(string.substr(4,6))    // Script
+// let string = 'JavaScript'
+// console.log(string.substr(4,6))    // Script
 
-let country = 'Finland'
-console.log(country.substr(3, 4))   // land
+// let country = 'Finland'
+// console.log(country.substr(3, 4))   // land
 
 //5. substring(): It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
 // let string = 'JavaScript'
@@ -82,8 +82,8 @@ console.log(country.substr(3, 4))   // land
 // let string = '30 Days Of JavaScript'
 
 //6.  Split method
-console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
-console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
+// console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
+// console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
 
 // let firstName = 'Asabeneh'
 
@@ -163,17 +163,19 @@ console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", 
 // console.log(string.indexOf('script'))     // -1
 
 // 11. lastIndexOf(): Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
-// //syntax
+// syntax
 // string.lastIndexOf(substring)
 // let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 
 // console.log(string.lastIndexOf('love'))       // 67
 // console.log(string.lastIndexOf('you'))        // 63
 // console.log(string.lastIndexOf('JavaScript')) // 38
+
 // concat(): it takes many substrings and joins them.
 // string.concat(substring, substring, substring)
+
 // let string = '30'
-// console.log(string.concat("Days", "Of", "JavaScript")) // 30DaysOfJavaScript
+// console.log(string.concat( " ", "Days", " ", "Of", " ", "JavaScript")) // 30DaysOfJavaScript
 
 // let country = 'Fin'
 // console.log(country.concat("land")) // Finland
@@ -205,24 +207,30 @@ console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", 
 // console.log(country.endsWith('land'))         // true
 // console.log(country.endsWith('fin'))          // false
 // console.log(country.endsWith('Fin'))          //  false
+
 // search: it takes a substring as an argument and it returns the index of the first match. The search value can be a string or a regular expression pattern.
+
+//syntax
 // string.search(substring)
-// let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
-// console.log(string.search('love'))          // 2
-// console.log(string.search(/javascript/gi))  // 7
+
+//  let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+//  console.log(string.search('love'))          // 2
+
+
 // match: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
 // let string = 'love'
 // let patternOne = /love/     // with out any flag
 // let patternTwo = /love/gi   // g-means to search in the whole text, i - case insensitive
+
 // Match syntax
 
-// // syntax
+// syntax
 // string.match(substring)
-// let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 // console.log(string.match('love'))
 // ["love", index: 2, input: "I love JavaScript. If you do not love JavaScript what else can you love.", groups: undefined]
-// let pattern = /love/gi
-// console.log(string.match(pattern))   // ["love", "love", "love"]
+let pattern = /love/gi
+console.log(string.match(pattern))   // ["love", "love", "love"]
 // Let us extract numbers from text using a regular expression. This is not the regular expression section, do not panic! We will cover regular expressions later on.
 
 // let txt = 'In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge'

@@ -13,9 +13,9 @@ let falseValue = 4 < 3  // false
 // All numbers(positive and negative) are truthy except zero
 // All strings are truthy except an empty string ('')
 // The boolean true
-// Falsy values
+
+// Falsy values:
 // 0
-// 0n
 // null
 // undefined
 // NaN
@@ -29,6 +29,6 @@ let falseValue = 4 < 3  // false
 let firstName
 console.log(firstName) //not defined, because it is not assigned to a value yet
 
-Null
+//Null
 let empty = null
 console.log(empty) // -> null , means no value

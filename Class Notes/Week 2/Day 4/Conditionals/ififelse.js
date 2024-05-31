@@ -1,10 +1,10 @@
 // If
 // In JavaScript and other programming languages the key word if is to used check if a condition is true and to execute the block code. To create an if condition, we need if keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
 
-// syntax
-if (condition) {
-  //this part of code runs for truthy condition
-}
+// // syntax
+// if (condition) {
+//   //this part of code runs for truthy condition
+// }
 Example:
 
 let num = 3
@@ -45,7 +45,6 @@ if (num > 0) {
 }
 //  -3 is a negative number
 let isRaining = true
-if (isRaining) {
   console.log('You need a rain coat.')
 } else {
   console.log('No need for a rain coat.')
@@ -75,7 +74,7 @@ if (condition) {
 }
 Example:
 
-let a = 0
+let a 
 if (a > 0) {
   console.log(`${a} is a positive number`)
 } else if (a < 0) {

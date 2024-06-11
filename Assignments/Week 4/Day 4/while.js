@@ -13,6 +13,7 @@ Write a loop that makes the following pattern using console.log():
     #####
     ######
     #######
+    
 Use loop to print the following pattern:
 
 0 x 0 = 0

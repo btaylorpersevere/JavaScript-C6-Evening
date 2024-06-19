@@ -1,11 +1,18 @@
-// // Anonymous Function
-// // Anonymous function or without name
-
-const anonymousFun = function() {   console.log(
-//     'I am an anonymous function and my value is stored in anonymousFun'
+// Anonymous Function
+ // Anonymous function or without name 
+const anonymousFun = function() {   
+   console.log(
+    'I am an anonymous function and my value is stored in anonymousFun'
    )
 }
 anonymousFun()
+//Declaration Function
+function anonymousFun() {
+   console.log(
+      'I am an anonymous function and my value is stored in anonymousFun'
+     )
+}anonymousFun()
+
 
 
  // Expression Function
@@ -42,10 +49,20 @@ anonymousFun()
 // function square(n) {
 //   return n * n
 // }
-
 // console.log(square(2)) // 4
+
 //anonymous function
-const square = function(num)
+const square = function(n) {
+   return n * n
+}
+square(4)
+
+
+//arrow function
+const square = (n) => {
+   return n * n
+}
+square(4)
 
 // const square = nu, => {
 //   return n * n

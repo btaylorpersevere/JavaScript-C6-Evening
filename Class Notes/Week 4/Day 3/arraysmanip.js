@@ -1,11 +1,11 @@
-// // Creating static values with fill
-// // fill: Fill all the array elements with a static value
+// Creating static values with fill
+/// fill: Fill all the array elements with a static value
 
 // const arr = Array() // creates an an empty array
 // console.log(arr)
 
-// const eightXvalues = Array(8).fill('X') // it creates eight element values filled with 'X'
-// console.log(eightXvalues) // ['X', 'X','X','X','X','X','X','X']
+ const eightXvalues = Array(8).fill('X') // it creates eight element values filled with 'X'
+ console.log(eightXvalues) // ['X', 'X','X','X','X','X','X','X']
 
 // const eight0values = Array(8).fill(0) // it creates eight element values filled with '0'
 // console.log(eight0values) // [0, 0, 0, 0, 0, 0, 0, 0]
@@ -13,29 +13,29 @@
 // const four4values = Array(4).fill(4) // it creates 4 element values filled with '4'
 // console.log(four4values) // [4, 4, 4, 4]
 
-// // Concatenating array using concat
-// // concat:To concatenate two arrays.
+ // Concatenating array using concat
+// concat:To concatenate two arrays.
 
 // const firstList = [1, 2, 3]
 // const secondList = [4, 5, 6]
 // const thirdList = firstList.concat(secondList)
 
 // console.log(thirdList) // [1, 2, 3, 4, 5, 6]
-// const fruits = ['banana', 'orange', 'mango', 'lemon']                 // array of fruits
+// const fruits = ['banana', 'orange', 'mango', 'lemon']                 // array of frits
 // const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of vegetables
 // const fruitsAndVegetables = fruits.concat(vegetables)                 // concatenate the two arrays
 
 // console.log(fruitsAndVegetables)
 
 
-// // Getting array length
-// // Length:To know the size of the array
+ // Getting array length
+// Length:To know the size of the array
 
 // const numbers = [1, 2, 3, 4, 5]
 // console.log(numbers.length) // -> 5 is the size of the array
 
-// // Getting index an element in arr array
-// // indexOf:To check if an item exist in an array. If it exists it returns the index else it returns -1.
+ // Getting index an element in arr array
+ // indexOf:To check if an item exist in an array. If it exists it returns the index else it returns -1.
 
 // const numbers = [1, 2, 3, 4, 5]
 
@@ -92,16 +92,19 @@ console.log(index)
  // Joining array elements
  // join: It is used to join the elements of the array, the argument we passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
 
-// const numbers = [1, 2, 3, 4, 5]
-// console.log(numbers.join()) // 1,2,3,4,5
+ const numbers5 = [1, 2, 3, 4, 5]
+ console.log(numbers5)
+ console.log(numbers5.join()) // 1,2,3,4,5
 
-// const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+ const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 
-// console.log(names.join()) // Asabeneh,Mathias,Elias,Brook
-// console.log(names.join('')) //AsabenehMathiasEliasBrook
-// console.log(names.join(' ')) //Asabeneh Mathias Elias Brook
-// console.log(names.join(', ')) //Asabeneh, Mathias, Elias, Brook
-// console.log(names.join(' # ')) //Asabeneh # Mathias # Elias # Brook
+ console.log(names.join()) // Asabeneh,Mathias,Elias,Brook
+ console.log(names.join('')) 
+ //AsabenehMathiasEliasBrook/ 
+ console.log(names.join(' ')) 
+ //Asabeneh Mathias Elias Brook
+ console.log(names.join(', ')) //Asabeneh, Mathias, Elias, Brook
+ console.log(names.join(' # ')) //Asabeneh # Mathias # Elias # Brook
 
 // const webTechs = [
 //   'HTML',
@@ -121,7 +124,7 @@ console.log(index)
  // Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
 
    const numbers1 = [1,2,3,4,5]
-     console.log(numbers1.slice(3, 5))
+  console.log(numbers1.slice(3, 5))
 
     //Splice method in array
  // Splice: It takes three parameters:Starting position, number of items to be removed and number of items to be added.
@@ -130,13 +133,101 @@ console.log(index)
 //   numbers.splice()
 //   console.log(numbers)                // -> remove all items
 
-   const numbers = [1, 2, 3, 4, 5]
-	numbers.splice(0,1)
-  console.log(numbers)            // remove the first item
+//    const numbers = [1, 2, 3, 4, 5]
+// 	numbers.splice(0,1)
+//   console.log(numbers)            // remove the first item
 
-   const numbers2 = [1, 2, 3, 4, 5, 6]
-numbers2.splice(3, 3, 7, 8, 9)
-  console.log(numbers2.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //it removes three item
-  // and replace three items
-  console.log(numbers2)
+//    const numbers2 = [1, 2, 3, 4, 5, 6]
+// numbers2.splice(3, 3, 7, 8, 9)
+//   console.log(numbers2.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //it removes three item
+   // and replace three items
+//   console.log(numbers2)
+
+Adding item to an array using push
+Push: adding item in the end. To add item to the end of an existing array we use the push method.
+
+// syntax
+const arr  = ['item1', 'item2','item3']
+arr.push('new item')
+console.log(arr)
+// ['item1', 'item2','item3','new item']
+const numbers = [1, 2, 3, 4, 5]
+numbers.push(6)
+console.log(numbers) // -> [1,2,3,4,5,6]
+
+numbers.pop() // -> remove one item from the end
+console.log(numbers) // -> [1,2,3,4,5]
+let fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.push('apple')
+console.log(fruits)    // ['banana', 'orange', 'mango', 'lemon', 'apple']
+
+fruits.push('lime')
+console.log(fruits)   // ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
+
+Removing the end element using pop
+pop: Removing item in the end.
+
+const numbers = [1, 2, 3, 4, 5]
+numbers.pop() // -> remove one item from the end
+console.log(numbers) // -> [1,2,3,4]
+Removing an element from the beginning
+shift: Removing one array element in the beginning of the array.
+
+const numbers = [1, 2, 3, 4, 5]
+
+numbers.shift() // -> remove one item from the beginning
+console.log(numbers) // -> [2,3,4,5]
+
+Add an element from the beginning
+unshift: Adding array element in the beginning of the array.
+
+const numbers = [1, 2, 3, 4, 5]
+numbers.unshift(0) // -> add one item from the beginning
+console.log(numbers) // -> [0,1,2,3,4,5]
+
+Reversing array order
+reverse: reverse the order of an array.
+
+const numbers = [1, 2, 3, 4, 5]
+numbers.reverse() // -> reverse array order
+console.log(numbers) // [5, 4, 3, 2, 1]
+
+numbers.reverse()
+console.log(numbers) // [1, 2, 3, 4, 5]
+
+Sorting elements in array
+sort: arrange array elements in ascending order. Sort takes a call back function, we will see how we use sort with a call back function in the coming sections.
+
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+
+webTechs.sort()
+console.log(webTechs) // ["CSS", "HTML", "JavaScript", "MongoDB", "Node", "React", "Redux"]
+
+webTechs.reverse() // after sorting we can reverse it
+console.log(webTechs) // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HTML", "CSS"]
+
+Array of arrays
+Array can store different data types including an array itself. Let us create an array of arrays
+
+const firstNums = [1, 2, 3]
+const secondNums = [1, 4, 9]
+
+const arrayOfArray =  [[1, 2, 3], [1, 2, 3]]
+console.log(arrayOfArray[0]) // [1, 2, 3]
+
+ const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+ const backEnd = ['Node','Express', 'MongoDB']
+ const fullStack = [frontEnd, backEnd]
+ console.log(fullStack)   // [["HTML", "CSS", "JS", "React", "Redux"], ["Node", "Express", "MongoDB"]]
+ console.log(fullStack.length)  // 2
+ console.log(fullStack[0])  // ["HTML", "CSS", "JS", "React", "Redux"]
+ console.log(fullStack[1]) // ["Node", "Express", "MongoDB"]
 

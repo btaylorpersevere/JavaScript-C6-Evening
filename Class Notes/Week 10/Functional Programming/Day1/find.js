@@ -7,9 +7,12 @@ const age = ages.find((age) => age < 20)
 console.log(age)
 
 //Example 2
-
+//remember that each method takes a callback function as a parameter
+//if we have method names.find(callback function)
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-const result = names.find((name) => name.length > 7)
+const result = names.find((name) => name.length > 7) //the arrow function is used here, remember and
+//arrow function does not contain the keyword ""function" and it does have a function name, it only passes
+//a parameter, that parameter represents the elements of the array 
 console.log(result)
 //(element, index, array)
 

@@ -1,5 +1,9 @@
-// //////////////////////////////////Getting Element//////////////////////////////////
-/////// Getting elements by tag name
+//HTML document is structured as a JavaScript Object. Every HTML element has a different properties which can help to manipulate it. It is possible to get, create, append or remove HTML elements using JavaScript. Check the examples below. Selecting HTML element using JavaScript is similar to selecting using CSS. To select an HTML element, we use tag name, id, class name or other attributes.
+
+
+
+//Getting Element//////////////////////////////////
+// Getting elements by tag name
 // getElementsByTagName():takes a tag name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
 
 // general syntax
@@ -13,7 +17,7 @@ document.getElementsByTagName('tagname')
 //     console.log(allTitles[i])
 // }
 
-/////// Getting elements by class name
+// Getting elements by class name
 // getElementsByClassName() method returns an HTMLCollection object. An HTMLCollection is an array like list of HTML elements. The length property provides the size of the collection. It is possible to loop through all the HTMLCollection elements. See the example below
 
 //syntax
@@ -23,11 +27,11 @@ document.getElementsByClassName('classname')
 
 
 
-/////// Getting an element by id
+// Getting an element by id
 // getElementsById() targets a single HTML element. We pass the id without # as an argument.
 
 //syntax
-document.getElementById('id')
+//document.getElementById('id')
 
 const allIds = document.getElementById("first-title")
 console.log(allIds)

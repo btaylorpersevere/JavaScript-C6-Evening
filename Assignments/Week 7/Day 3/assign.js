@@ -53,6 +53,3 @@ const users = [
 Destructure and assign the elements of constants array to e, pi, gravity, humanBodyTemp, waterBoilingTemp.
 Destructure and assign the elements of countries array to fin, est, sw, den, nor
 Destructure the rectangle object by its properties or keys.
-Exercises: Level 2
-Iterate through the users array and get all the keys of the object using destructuring
-Find the persons who have less than two skills
